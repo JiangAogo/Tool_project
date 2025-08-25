@@ -1,0 +1,70 @@
+{
+  "title": "Mediterranean Family Garden - Michigan",
+  "canvas": {
+    "width": 1600,
+    "height": 1000,
+    "margin": 60,
+    "bg_color": "#FDFBF8"
+  },
+  "house": {
+    "rect": [0.3, 0.0, 0.7, 0.2]
+  },
+  "zones": [
+    {
+      "id": "ZoneA",
+      "name_cn": "家庭休闲平台",
+      "name_en": "Family Deck",
+      "polygon": [[0.35, 0.2], [0.65, 0.2], [0.65, 0.35], [0.35, 0.35]],
+      "style_preset": "deck"
+    },
+    {
+      "id": "ZoneB",
+      "name_cn": "左侧种植区",
+      "name_en": "Left Planting Bed",
+      "polygon": [[0.1, 0.4], [0.3, 0.4], [0.3, 0.7], [0.1, 0.7]],
+      "style_preset": "zen_garden"
+    },
+    {
+      "id": "ZoneC",
+      "name_cn": "水景区",
+      "name_en": "Water Feature Zone",
+      "polygon": [[0.7, 0.3], [0.85, 0.3], [0.85, 0.5], [0.7, 0.5]],
+      "style_preset": "water_feature"
+    },
+    {
+      "id": "ZoneD",
+      "name_cn": "草坪缓冲区",
+      "name_en": "Lawn Transition Zone",
+      "polygon": [[0.3, 0.35], [0.7, 0.35], [0.7, 0.7], [0.3, 0.7]],
+      "style_preset": "lawn"
+    }
+  ],
+  "paths": [
+    {
+      "name": "Main Path",
+      "points": [[0.5, 0.0], [0.5, 0.35], [0.75, 0.4]],
+      "style_preset": "path_stone"
+    },
+    {
+      "name": "Secondary Path",
+      "points": [[0.5, 0.35], [0.25, 0.55]],
+      "style_preset": "path_stone"
+    }
+  ],
+  "features": [
+    {
+      "type": "tree",
+      "name_en": "Existing Shade Tree",
+      "position": [0.15, 0.2],
+      "size": 0.15,
+      "style_preset": "feature_tree"
+    },
+    {
+      "type": "lantern",
+      "name_en": "Garden Lantern",
+      "position": [0.25, 0.65],
+      "size": 0.05,
+      "style_preset": "feature_lantern"
+    }
+  ]
+}
